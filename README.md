@@ -5,6 +5,7 @@ MarketPulse is an AI-ready market structure engine that transforms real-time A-s
 
 > A Market Structure Analyzer for A-share markets.  
 > Structured market-state JSON for AI agents.
+
 [中文说明](README_CN.md)
 ---
 
