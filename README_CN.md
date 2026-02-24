@@ -31,79 +31,6 @@
 ---
 
 ## 🧠 为什么要做这个项目
-市场结构 → 数据 → 结构判断
-
-## 🧱 系统架构
-飞书 / Chat
-↓
-OpenClaw Agent
-↓
-market-state skill (SKILL.md)
-↓
-exec 执行 market_state.py
-↓
-AKShare 数据
-↓
-结构化 JSON 输出
-
-## 📦 JSON 输出结构
-{
-  "meta": {},
-  "shape": {},
-  "columns": [],
-  "summary": {
-    "breadth": {},
-    "pct_chg_quantiles": {},
-    "turnover_quantiles": {},
-    "limit_up_like": "",
-    "limit_down_like": "",
-    "top_turnover": []
-  }
-}
-
-下面给你 **两版完整 README**：
-
-* 🇨🇳 中文版（适合国内开发者 / 飞书 / A股语境）
-* 🇬🇧 英文版（适合 GitHub 对外展示）
-
-两版是 **同一结构**，方便维护。
-
----
-
-# 🇨🇳 README_CN.md（中文版）
-
-```markdown
-# Market State Skill — OpenClaw + AKShare
-
-> 一个用于 A 股市场结构分析的 OpenClaw Skill  
-> 为 AI Agent 提供结构化市场状态数据（Market Structure JSON）
-
----
-
-## 🚀 项目简介
-
-**market-state** 是一个基于 OpenClaw 的市场分析 skill，用于：
-
-- 获取 A 股实时市场快照
-- 将市场数据转换为结构化 JSON
-- 为 AI 提供可解析的市场结构数据
-
-本项目 **不是**：
-
-- ❌ 选股工具
-- ❌ 预测工具
-- ❌ 投资建议系统
-
-本项目 **是**：
-
-- ✔ 市场结构分析器
-- ✔ 市场情绪与广度统计
-- ✔ 流动性结构分析
-- ✔ Narrative Market Agent 的数据底座
-
----
-
-## 🧠 为什么要做这个项目
 
 多数 AI 金融项目路径：
 
@@ -324,26 +251,12 @@ openclaw skills list --eligible
 * [ ] 市场叙事检测
 * [ ] 多日结构记忆
 
-## 👤 作者
-
-用于探索：
-
-* OpenClaw Agent
-* AKShare
-* AI 市场结构分析
-
 ---
 
-## ⭐ 未来方向
+## ⚠️ 已知问题
 
-构建：
+* Eastmoney 数据源偶发断连（已支持 fallback）
+* 不同数据源字段可能存在差异
+* LLM 需严格限制避免 hallucination
 
-```
-Narrative Market Agent
-```
 
-能够理解：
-
-* 市场结构变化
-* 资金行为
-* 市场状态切换
