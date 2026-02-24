@@ -8,9 +8,7 @@
 ---
 
 ## 🚀 项目简介
-
-**market-state** 是一个基于 OpenClaw 的市场分析 skill，用于：
-
+MarketPulse——市场脉搏
 - 获取 A 股实时市场快照
 - 将市场数据转换为结构化 JSON
 - 为 AI 提供可解析的市场结构数据
