@@ -7,6 +7,7 @@ MarketPulse is an AI-ready market structure engine that transforms real-time A-s
 > Structured market-state JSON for AI agents.
 
 [中文说明](README_CN.md)
+
 ---
 
 ## 🚀 Overview
@@ -253,8 +254,3 @@ use market-state skill with hs_a
 * Different data sources → different columns
 * LLM must be constrained to avoid hallucination
 
-如果你愿意，我下一步可以直接给你一个：
-
-🔥 **GitHub 项目主页展示级结构（AI金融项目标准模板）**
-
-那种一看就像 serious quant infra 的。
