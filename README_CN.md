@@ -1,7 +1,9 @@
-# Market State Skill — OpenClaw + AKShare
+# MarketPulse — OpenClaw + AKShare
 
 > 一个用于 A 股市场结构分析的 OpenClaw Skill  
 > 为 AI Agent 提供结构化市场状态数据（Market Structure JSON）
+
+[English](README.md)
 
 ---
 
