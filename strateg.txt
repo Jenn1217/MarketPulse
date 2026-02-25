@@ -1,0 +1,18 @@
+  <el-container>
+    <el-header>
+      <div class="header-content">
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <el-button 
+            type="default" 
+            @click="goToHome" 
+            icon="el-icon-arrow-left"
+            size="small"
+            style="border-radius: 4px; background: rgba(255,255,255,0.2); color: white; border-color: rgba(255,255,255,0.3);"
+          >
+            返回首页
+          </el-button>
+          <h2>日K线选股策略</h2>
+        </div>
+        <el-button @click="logout">退出登录</el-button>
+      </div>
+    </el-header>
