@@ -18,12 +18,6 @@ MarketPulse is an AI-ready market structure engine that transforms real-time A-s
 - Transform raw data into structured JSON
 - Enable AI agents to reason about market structure
 
-This project is **NOT**:
-
-- ❌ stock picking
-- ❌ price prediction
-- ❌ investment advice
-
 This project **IS**:
 
 - ✔ market structure extraction
